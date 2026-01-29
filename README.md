@@ -2,6 +2,8 @@
 
 **A Prescriptive Analytics Engine for Maximizing Cross-Sell Revenue**
 
+**🔴 Live Application:** [Launch Dashboard](https://vighnesh-shetty-vs-market-basket-analy-market-basket-app-iv8ny8.streamlit.app/)
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io)
 [![Algorithm](https://img.shields.io/badge/Algorithm-FP--Growth-green)](https://github.com/rasbt/mlxtend)
