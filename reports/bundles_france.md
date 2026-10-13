@@ -1,0 +1,16 @@
+# Bundle candidates: France
+
+382 invoices (cancellations, returns and postage lines removed). FP-Growth with support >= 5%, confidence >= 30%, lift >= 1.2.
+
+| Anchor product | Add-on | Baskets with both | Confidence | Lift |
+|---|---|---|---|---|
+| PACK OF 6 SKULL PAPER CUPS | PACK OF 6 SKULL PAPER PLATES | 5.2% | 80% | 13.9x |
+| PACK OF 6 SKULL PAPER PLATES | PACK OF 6 SKULL PAPER CUPS | 5.2% | 91% | 13.9x |
+| CHILDRENS CUTLERY SPACEBOY | CHILDRENS CUTLERY DOLLY GIRL | 6.5% | 93% | 12.6x |
+| CHILDRENS CUTLERY DOLLY GIRL | CHILDRENS CUTLERY SPACEBOY | 6.5% | 89% | 12.6x |
+| ALARM CLOCK BAKELIKE RED | ALARM CLOCK BAKELIKE GREEN | 8.1% | 84% | 8.4x |
+| ALARM CLOCK BAKELIKE GREEN | ALARM CLOCK BAKELIKE RED | 8.1% | 82% | 8.4x |
+| ALARM CLOCK BAKELIKE PINK | ALARM CLOCK BAKELIKE RED | 7.6% | 72% | 7.5x |
+| ALARM CLOCK BAKELIKE RED | ALARM CLOCK BAKELIKE PINK | 7.6% | 78% | 7.5x |
+| ALARM CLOCK BAKELIKE GREEN | ALARM CLOCK BAKELIKE PINK | 7.6% | 76% | 7.3x |
+| ALARM CLOCK BAKELIKE PINK | ALARM CLOCK BAKELIKE GREEN | 7.6% | 72% | 7.3x |

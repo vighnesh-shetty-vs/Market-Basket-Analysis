@@ -22,16 +22,21 @@ The goal of this platform is to translate raw transactional data into actionable
 
 ---
 
-## 💡 Case Study: The "Retro Kid" Insight (France Market)
+## 💡 Case study: matching sets in the French market
 
-During analysis of the French market, the model identified a massive opportunity in the **Novelty Gifts** category that manual analysis missed.
+`python find_bundles.py France` reproduces these results with the app's default settings (support ≥ 5%, confidence ≥ 30%, lift ≥ 1.2) on 382 French invoices. Cancellations, returns and postage lines are removed. Full list: [reports/bundles_france.md](reports/bundles_france.md).
 
-| Anchor Product | Recommended Add-On | Lift (Multiplier) | Strategic Action |
-| :--- | :--- | :--- | :--- |
-| **Plasters in Tin Spaceboy** | **Plasters in Tin Woodland** | **24.5x** | Create "Retro First Aid" Bundle |
-| **Set/6 Red Spotty Paper Cups** | **Set/6 Red Spotty Paper Plates** | **18.2x** | Automate "Party Pack" upsell at checkout |
+| Anchor product | Add-on | Baskets with both | Confidence | Lift | Action |
+|---|---|---|---|---|---|
+| Pack of 6 skull paper cups | Pack of 6 skull paper plates | 5.2% | 80% | 13.9x | Sell as one "party set" SKU |
+| Children's cutlery Spaceboy | Children's cutlery Dolly Girl | 6.5% | 93% | 12.6x | Twin pack for families with two children |
+| Alarm clock Bakelike red | Alarm clock Bakelike green | 8.1% | 84% | 8.4x | "Collect the colours" display |
+| Set/6 red spotty paper cups | Set/6 red spotty paper plates | 12.2% | 89% | 7.0x | Highest-volume pair: checkout upsell |
 
-**The Insight:** Customers buying one design are **24x more likely** to buy the matching set. By bundling these automatically, we reduce search friction and capture revenue that might otherwise be lost.
+**What this shows:**
+- **French customers buy matching sets.** The strongest rules all pair two designs from the same product line.
+- **Lift and volume pull in different directions.** Skull cups and plates have the highest lift but appear in only 5% of baskets. Red spotty cups and plates appear in 12%, with an 89% chance plates follow cups. For a checkout upsell, volume × confidence matters more than lift.
+- **Next step:** test each bundle against a control group (A/B) before rolling it out. Association rules show what is bought together, not that a bundle would increase sales.
 
 ---
 
